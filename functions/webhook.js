@@ -1,5 +1,4 @@
-const VERIFY_TOKEN =
-  "EAAQaSpDyExYBAHi1Fkhkrb9A4HpQOIEDKqObQg3YRyZCFr9JzgZBl5CWfrZCdqDaml3BtNaGLDCZBd9aXH5W5hiYplhOUNHtOVQ3vEmbY954iUYIAbySIqGay9b0B6BvYEiXblxR3MEG1WZAZBQem9QA0q0psJNjYSCS0V0q7n8QoC968qZAKDU";
+const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 
 exports.handler = async (event, context) => {
   if (event.httpMethod === "GET") {
