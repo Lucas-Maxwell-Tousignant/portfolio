@@ -24,3 +24,4 @@ yarn-error.log*
 
 ./webhook.js
 functions/webhook.js
+functions/webhook.js
