@@ -16,7 +16,6 @@
     display: block;
     font-size: 37px;
     text-transform: uppercase;
-    letter-spacing: 1px;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 35px;
@@ -107,6 +106,7 @@
 @media screen and (max-width: 576px) {
     .heading-sec__main {
         font-size: 26px;
+        letter-spacing: 1px;
     }
 
     .heading-sec__sub {
@@ -117,4 +117,31 @@
 
         top: calc(100% + 5px);
     }
+
+    .about__content {
+        display: flex;
+        grid-gap: 20px;
+        flex-direction: column;
+    }
+
+    .heading-sec__mb-med {
+        margin-bottom: 40px;
+    }
+
+    .about__content-main {
+        text-align: center;
+    }
+
+    .about__content-title {
+
+        text-align: center;
+
+        margin-bottom: 20px;
+
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
 }

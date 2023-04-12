@@ -83,15 +83,39 @@
 
     .heading-primary {
         font-size: 41px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-align: center;
-        color: #111;
-        font-weight: 800;
     }
 
     .btn--bg {
         padding: 0.7rem 4rem;
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading-primary {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .home-hero {
+        height: 55vh;
+        min-height: 55vh;
+    }
+
+    .home-hero__content {
+        top: 59%;
+    }
+
+    .text-primary {
+        font-size: 16.88px;
+    }
+
+    .home-hero__info {
+        margin: 20px auto 0 auto;
+
+    }
+
+    .home-hero__cta {
+        margin-top: 20px;
     }
 }

@@ -22,7 +22,6 @@ const About = () => {
                                 I welcome career prospects that enable me to contribute, develop, and expand my horizons. Please feel free to reach out if you have a fitting opportunity that aligns with my skill set and background.
                             </p>
                         </div>
-                        <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
                     </div>
                     <div class="about__content-skills">
                         <h3 class="about__content-title">My Skills</h3>

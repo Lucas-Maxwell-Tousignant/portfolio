@@ -30,9 +30,6 @@ const Header = () => {
                         <li className="header__link-wrapper">
                             <a href="./#projects" className="header__link"> Projects </a>
                         </li>
-                        <li className="header__link-wrapper">
-                            <a href="./#contact" className="header__link"> Contact </a>
-                        </li>
                     </ul>
                     <div className="header__main-ham-menu-cont">
                         <span className="header__main-ham-menu" onClick={hamburgerHandleClick}> {menuRevealed ? <AiOutlineClose /> : <RxHamburgerMenu />}  </span>
@@ -52,10 +49,6 @@ const Header = () => {
 
                         <li className="header__sm-menu-link">
                             <a href="./#projects"> Projects </a>
-                        </li>
-
-                        <li className="header__sm-menu-link">
-                            <a href="./#contact"> Contact </a>
                         </li>
                     </ul>
                 </div>

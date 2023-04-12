@@ -48,16 +48,21 @@
 
 @media screen and (max-width: 576px) {
     .sec-pad {
-    padding: 20px 0;
+        padding: 20px 0;
+    }
+
+    .projects__row {
+        display: flex;
+        grid-gap: 20px;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .heading-sec__mb-bg {
+        margin-bottom: 40px;
+    }
+
+    .projects__row-content {
+        align-items: center;
+    }
 }
-}
-
-
-
-
-
-
-
-
-
-
