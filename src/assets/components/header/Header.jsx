@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import lucasIMG from "../../../assets/images/lucas.png";
 import "./header.css";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
+    const [menuRevealed, setMenuRevealed] = useState(false);
+    const hamburgerHandleClick = () => {
+        setMenuRevealed(!menuRevealed);
+    }
+
     return (
         <header className="header">
             <div className="header__content">
@@ -10,7 +17,7 @@ const Header = () => {
                     <div className="header__logo-img-cont">
                         <img src={lucasIMG} alt="Lucas Maxwell Tousignant Logo Image" className="header__logo-img" />
                     </div>
-                    <span className="header__logo-sub">Lucas Maxwell Tousignant</span>
+                    <span className="header__logo-sub">Lucas</span>
                 </div>
                 <div className="header__main">
                     <ul className="header__links">
@@ -28,12 +35,11 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="header__main-ham-menu-cont">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg" alt="hamburger menu" className="header__main-ham-menu" />
-                        <img src="https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg" alt="hamburger menu close" className="header__main-ham-menu-close d-none" />
+                        <span className="header__main-ham-menu" onClick={hamburgerHandleClick}> {menuRevealed ? <AiOutlineClose /> : <RxHamburgerMenu />}  </span>
                     </div>
                 </div>
             </div>
-            <div className="header__sm-menu">
+            <div className={`header__sm-menu${menuRevealed ? ' visible' : ''}`}>
                 <div className="header__sm-menu-content">
                     <ul className="header__sm-menu-links">
                         <li className="header__sm-menu-link">

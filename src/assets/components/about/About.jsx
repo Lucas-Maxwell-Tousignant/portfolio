@@ -19,9 +19,7 @@ const About = () => {
                                 I'm a <strong>Full-Stack Developer</strong>  with expertise in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I create efficient and effective web applications with dynamic user interfaces and secure databases. Check out some of my work in the <strong>Projects</strong> section.
                             </p>
                             <p class="about__content-details-para">
-
                                 I welcome career prospects that enable me to contribute, develop, and expand my horizons. Please feel free to reach out if you have a fitting opportunity that aligns with my skill set and background.
-
                             </p>
                         </div>
                         <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
