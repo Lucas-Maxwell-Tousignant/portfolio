@@ -25,9 +25,7 @@ const Footer = () => {
                     <div class="main-footer__row main-footer__row-2">
                         <h2 class="heading heading-sm text-lt">Lucas Tousignant</h2>
                         <p class="main-footer__short-desc">
-                            A Frontend focused Web Developer building the Frontend of Websites
-                            and Web Applications that leads to the success of the overall
-                            product
+                            A versatile Full-Stack Web Developer specializing in crafting both Frontend and Backend components of websites and web applications, contributing to the overall success and effectiveness of the product.
                         </p>
                     </div>
                 </div>
