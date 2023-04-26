@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
                 <div class="main-footer__lower">
                     &copy;  {new Date().getFullYear()}. Made by
-                    <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"> Lucas Tousignant</a>
+                    <a rel="noreferrer" target="_blank" href="https://github.com/Lucas-Maxwell-Tousignant"> Lucas Tousignant</a>
                 </div>
             </div>
         </footer>
